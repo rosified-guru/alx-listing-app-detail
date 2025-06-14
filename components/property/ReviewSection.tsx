@@ -1,4 +1,4 @@
-const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
+ export const ReviewSection: React.FC<{ reviews: any[] }> = ({ reviews }) => {
   return (
     <div className="mt-8">
       <h3 className="text-2xl font-semibold">Reviews</h3>
